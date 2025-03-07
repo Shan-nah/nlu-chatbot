@@ -4,4 +4,3 @@ pandas
 tensorflow
 requests
 scikit-learn
-git 

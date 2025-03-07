@@ -5,10 +5,10 @@ import pickle
 app = FastAPI()
 
 # Load trained models
-with open("../models/intent_model.pkl", "rb") as f:
+with open("models/intent_model.pkl", "rb") as f:
     intent_vectorizer, intent_model = pickle.load(f)
 
-with open("../models/sentiment_model.pkl", "rb") as f:
+with open("models/sentiment_model.pkl", "rb") as f:
     sentiment_vectorizer, sentiment_model = pickle.load(f)
 
 # Process user input

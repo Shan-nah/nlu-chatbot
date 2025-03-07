@@ -1,6 +1,14 @@
 {
-  "greeting": ["hello", "hi", "hey"],
-  "track_order": ["where is my order?", "track my order", "order status"],
-  "book_appointment": ["I need an appointment", "book a doctor", "schedule a meeting"],
-  "cancel_order": ["cancel my order", "I want a refund", "return my product"]
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening"],
+          "responses": ["Hello!", "Hi there!", "Hey! How can I help you?"]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+          "responses": ["Goodbye!", "See you next time!", "Take care!"]
+      }
+  ]
 }
