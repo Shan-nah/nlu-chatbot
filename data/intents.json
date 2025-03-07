@@ -1,7 +1,6 @@
 {
-    "intents": [
-      {"tag": "greeting", "patterns": ["Hello", "Hi", "Hey"], "responses": ["Hello!", "Hi there!"]},
-      {"tag": "goodbye", "patterns": ["Bye", "See you"], "responses": ["Goodbye!", "Take care!"]}
-    ]
-  }
-  
+  "greeting": ["hello", "hi", "hey"],
+  "track_order": ["where is my order?", "track my order", "order status"],
+  "book_appointment": ["I need an appointment", "book a doctor", "schedule a meeting"],
+  "cancel_order": ["cancel my order", "I want a refund", "return my product"]
+}
